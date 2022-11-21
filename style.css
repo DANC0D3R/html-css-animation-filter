@@ -111,14 +111,14 @@
 
 .ex-11-icon:hover{
     animation-name: incomplete-rotation;
-    animation-duration: 1s;
+    animation-duration: 2s;
 }
 
 @keyframes incomplete-rotation{
     0%{
         transform: rotate(0deg);
     }
-    75%{
+    90%{
         transform: rotate(310deg);
     }
     100%{
